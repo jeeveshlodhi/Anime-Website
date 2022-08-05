@@ -1,0 +1,91 @@
+.headWrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to bottom, #2a2c31, transparent);
+    padding: 15px 10px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    width: -webkit-fill-available;
+    z-index: 20;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hamberger{
+    font-size: 30px;
+    padding: 0px 20px;
+    cursor: pointer;
+}
+.logo{
+    width: 8rem;
+    padding: 0px 20px;
+}
+.searchBar{
+    padding: 10px 20px;
+    color: black;
+    outline: none;
+    border: none;
+    letter-spacing: 1.5px;
+    border-radius: 10px;
+}
+.iconWrapper{
+    display: flex;
+    margin: 0px 20px;
+    justify-content: space-evenly;
+}
+.iconWrapper svg{
+    margin: 0px 10px;
+    padding:10px;
+    font-size: 20px;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.discord{
+    background-color: 	#7289DA;
+}
+.telegram{
+    background-color: #0088cc;
+    margin-right: -10px;
+}
+.reddit{
+    background-color: #ff4500;
+}
+.twitter{
+    background-color: #00acee;
+}
+
+.random{
+    padding: 10px;
+    font-size: 22px;
+    color: greenyellow;
+    cursor: pointer;
+}
+.donateBtn{
+    padding: 10px 20px;
+    border-radius:25px;
+    outline: none;
+    border: 0px;
+    color: black;
+    background-color:#00ffb7;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+.loginBtn{
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius:10px;
+    outline: none;
+    border: 0px;
+    color: black;
+    background-color:#cae962;
+}
+

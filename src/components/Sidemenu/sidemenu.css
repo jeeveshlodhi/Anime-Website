@@ -1,0 +1,34 @@
+.sideWrapper{
+    height: 100vh;
+    position: fixed;
+    background-color: #2a2c31;
+    width: 20%;
+    color: white;
+    margin-left: -20%;
+    transition: .3s ease-in-out;
+    z-index: 20;
+}
+
+.side{
+    margin-left: 0% !important;
+    transition: .3s ease-in-out;
+}
+
+.sideClose{
+    display: flex;
+    padding: 10px 20px;
+    justify-content: right;
+    color: white;
+    font-size: 25px;
+}
+.menuoptions{
+    margin-top: 30px;
+}
+
+.menuoptions p{
+    text-decoration: none;
+    margin: 0px 5px;
+    padding: 15px 10px;
+    color: white;
+    border-bottom: .4px solid rgba(255, 255, 255, 0.432);
+}
